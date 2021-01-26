@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/*!
+ * index.css
+ * Version - 0.0.1
+ * Licensed under the ICS license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2021 @Nathan TSegaye 
+ */
+
+/*--------------------------------------------------------*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Bold.eot');
+  src: url('../fonts/NeueMontreal-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-Bold.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-Bold.woff') format('woff'),
+      url('../fonts/NeueMontreal-Bold.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-Bold.svg#NeueMontreal-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-BoldItalic.eot');
+  src: url('../fonts/NeueMontreal-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-BoldItalic.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-BoldItalic.woff') format('woff'),
+      url('../fonts/NeueMontreal-BoldItalic.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-BoldItalic.svg#NeueMontreal-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Italic.eot');
+  src: url('../fonts/NeueMontreal-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-Italic.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-Italic.woff') format('woff'),
+      url('../fonts/NeueMontreal-Italic.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-Italic.svg#NeueMontreal-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Light.eot');
+  src: url('../fonts/NeueMontreal-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-Light.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-Light.woff') format('woff'),
+      url('../fonts/NeueMontreal-Light.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-Light.svg#NeueMontreal-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-LightItalic.eot');
+  src: url('../fonts/NeueMontreal-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-LightItalic.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-LightItalic.woff') format('woff'),
+      url('../fonts/NeueMontreal-LightItalic.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-LightItalic.svg#NeueMontreal-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Medium.eot');
+  src: url('../fonts/NeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-Medium.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-Medium.woff') format('woff'),
+      url('../fonts/NeueMontreal-Medium.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-Medium.svg#NeueMontreal-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-MediumItalic.eot');
+  src: url('../fonts/NeueMontreal-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-MediumItalic.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-MediumItalic.woff') format('woff'),
+      url('../fonts/NeueMontreal-MediumItalic.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-MediumItalic.svg#NeueMontreal-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Regular.eot');
+  src: url('../fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+      url('../fonts/NeueMontreal-Regular.woff') format('woff'),
+      url('../fonts/NeueMontreal-Regular.ttf') format('truetype'),
+      url('../fonts/NeueMontreal-Regular.svg#NeueMontreal-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body {
+  font-family: 'Oxygen',"Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #ffffff;
+  position: relative;
+}
+
+.block-title {
+  width: 100%;
+  margin: 0px auto 10px auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.8em;
+  color: #dd9929;
+}
