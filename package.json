@@ -9,6 +9,7 @@
     "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
     "react-loading-overlay": "^1.0.1",
     "react-paypal-express-checkout": "^1.0.5",
     "react-responsive-carousel": "^3.2.11",
