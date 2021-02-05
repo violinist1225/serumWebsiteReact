@@ -3,6 +3,20 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
+import ReactGA from 'react-ga';
+
+
+
+const initGA = () => {
+ 
+  ReactGA.initialize('UA-188949478-1', {
+    debug: true
+  });
+  ReactGA.pageview(window.location.pathname + window.location.search);
+};
+(function initAnalytics() {
+  initGA();
+})();
 
 ReactDOM.render(
   <React.StrictMode>

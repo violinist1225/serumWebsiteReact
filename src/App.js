@@ -1,14 +1,13 @@
 import './App.css';
 import './AppQueries.css';
 import { Header } from './components/header/Header.component';
-import { SerumList } from './constants/SerumList';
 import { useState } from 'react';
 import { Promotion } from './components/promotion/Promotion.component';
 import { Footer } from './components/footer/Footer.component';
 import { Cart } from './components/cart/Cart.component';
 import Questionnaire from './components/questionnaire/Questionnaire.component';
 import { SerumCollection } from './components/serum-collection/SerumCollection.component';
-import TestimonialComponent, { Testimonial } from './components/testimonial/Testimonial.component';
+import  { Testimonial } from './components/testimonial/Testimonial.component';
 import { Blurb } from './components/blurb/Blurb.component';
 import { LasheSection } from './components/lash/Lashe.component';
 import { Delivery } from './components/delivery/Delivery.component';
@@ -19,7 +18,6 @@ export const App = () => {
   const [displayCartModal, setDisplayCartModal] = useState(false);
   const [completed, setCompleted] = useState(false);
 
-  const [serums, ] = useState(SerumList)
 
   const handleSelect = (product) => {
     setDisplayCartModal(true);
