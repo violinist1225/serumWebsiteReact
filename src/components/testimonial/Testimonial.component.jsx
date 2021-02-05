@@ -27,7 +27,9 @@ export const Testimonial = () =>{
               <a href="/images/reviews/review6.jpg">
                 <img className="slide-img" src="/images/reviews/review6.jpg" alt="Melanie  stj" />
               </a>
-            
+              <a href="/images/reviews/review6.jpg">
+                <img className="slide-img" src="/images/reviews/review7.jpg" alt="Michelle  P." />
+              </a>
           </SRLWrapper>
             {/* yelp*/}
             <div className="tc-section" id="yelp">
