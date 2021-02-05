@@ -16,7 +16,7 @@ export const SerumCollection = ({product, handleSelect, test}) => {
             {SerumList.map((serum, index)=> (
             <div key = {index} className="product-instance">
               {serum.images && serum.images.length > 0 && (
-                <Carousel   showArrows={true} className="pi-section slider-cont" showStatus={false} autoPlay={true} transitionTime={10} infiniteLoop={true} showThumbs={true}>
+                <Carousel   showArrows={true} className="pi-section slider-cont" showStatus={false} autoPlay={true} infiniteLoop={true} showThumbs={true}>
                   {
                     serum.images.map((serum_image, key)=>(
                       <div key={key}> <img alt={serum.title} src={serum_image} className="img-rounded" style={{objectFit:"contain"
