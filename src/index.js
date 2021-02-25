@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
 import ReactGA from 'react-ga';
 
+import { BrowserRouter } from "react-router-dom";
 
 
 const initGA = () => {
@@ -20,11 +21,15 @@ const initGA = () => {
 
 ReactDOM.render(
   <React.StrictMode>
+        <BrowserRouter>
+
         <SimpleReactLightbox>
 
-    <App />
+  
+        <App/>
 
   </SimpleReactLightbox>
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
