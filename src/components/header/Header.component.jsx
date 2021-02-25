@@ -4,7 +4,7 @@ export const Header = (serum) =>{
     return (
       <div className="page-header-container" style={{background:"url('/images/HeaderImage.png')",
       backgroundSize: "contain",
-  backgroundPosition: "top",
+  backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundAttachment: "fixed"}}>
         <div className="ph-content">

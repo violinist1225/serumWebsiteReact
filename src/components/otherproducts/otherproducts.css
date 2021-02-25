@@ -1,0 +1,68 @@
+.soon-container {
+    height:100vh;
+    width: 100vw;
+    background-color: #CFD8DC;
+    padding: 30px;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.soon-div {
+    width: 400px;
+    margin: 6em auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 15em;
+}
+
+@media (max-width: 600px) {
+    .soon-container {
+        background-color: #CFD8DC;
+    }
+    .soon-div {
+        width: auto;
+        margin: 6em auto;
+        border-radius: 0;
+        padding: 40px;
+    }
+}
+
+.hammer {
+    margin-left: 43%;
+    position: relative;
+    animation: anim1 2s;
+    animation-iteration-count: infinite;
+  size: 30px !important;
+}
+
+
+@keyframes anim1 {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 35px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    75% {
+        bottom: 35px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.text1 {
+    text-align: center;
+    color: #FFCE31;
+    
+    text-shadow: -1px 1px 5px #ffe7b6;
+}
+
+.uc {
+    text-align: center;
+    color: #89664C;
+    
+}
+
